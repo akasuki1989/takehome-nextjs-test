@@ -1,0 +1,71 @@
+.nomineeCard {
+  width: 32%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 1rem;
+  background-color: #CFE2F3;
+  color: #333;
+}
+
+.nomineeCard:hover {
+  background-color: #34AC9C;
+  color: #ccc;
+}
+
+.nomineeCard.active{
+  background-color: #009B86;
+  color: #ccc;
+}
+
+.nomineeCard p {
+  min-height: 3rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.photoWrapper {
+  position: relative;
+  width: 37%; 
+  border-radius: 50%;
+  overflow: hidden;
+  font-size: 0;
+}
+
+.selectBtn {
+  padding: 0.8rem 2rem;
+  margin-top: 2rem;
+  background: #999;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #009B86;
+}
+
+.selectBtn:hover {
+  color: #ccc;
+}
+
+.selectBtn.selected {
+  color: #ccc;
+  cursor: none;
+}
+
+@media (max-width: 991px) {
+  .nomineeCard {
+    width: 48%;
+  }
+}
+@media (max-width: 767px) {
+  .nomineeCard {
+    width: 100%;
+  }
+}

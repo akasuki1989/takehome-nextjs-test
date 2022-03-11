@@ -1,0 +1,71 @@
+.ballotsView {
+  padding: 1rem;
+  width: 80%;
+}
+
+.ballotsView h1 {
+  margin-bottom: 4rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.btnWrapper {
+  display: flex;
+  margin-top: 4rem;
+  justify-content: center;
+}
+
+.submitBtn {
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background: #009B86;
+  color: white;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background: #34AC9C;
+  color: #ccc;
+}
+
+.submitBtn:disabled {
+  cursor: not-allowed;
+  color: #c0c0c0;
+  background-color: #ffffff;
+}
+
+@media (max-width: 1439px) {
+  .submitBtn {
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .submitBtn {
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .ballotsView {
+    width: 100%;
+  }
+
+  .submitBtn {
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+  }
+}

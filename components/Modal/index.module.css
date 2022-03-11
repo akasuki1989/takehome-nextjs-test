@@ -1,0 +1,36 @@
+.modalBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.6);
+  inset: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.modalContent {
+  background: white;
+  color: black;
+  padding: 30px;
+  min-width: 360px;
+  max-width: 600px;
+  min-height: 300px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.btnClose {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.modalContent h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
